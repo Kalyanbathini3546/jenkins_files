@@ -1,5 +1,5 @@
 <html> 
 
-<h1> THE JENKINS AUTOMATION COMPLETED </h1> 
+<h1> configured jenkins and delpoyed .war in tomcat </h1> 
 
 </html>
