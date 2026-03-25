@@ -1,5 +1,5 @@
 <html> 
 
-<h1> WEBHOOK TRAIL 2 with SCM triggers githubPush 3 </h1> 
+<h1> welcome to devops </h1> 
 
 </html>
