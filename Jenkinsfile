@@ -5,7 +5,7 @@ pipeline {
         stage('clone scm') {
             steps {
                 echo 'cloning sc from git repo'
-                git branch: 'main', url: 'https://github.com/Umaramakrishna/jenkins_files.git'
+               git branch: 'main', url: 'https://github.com/Kalyanbathini3546/jenkins_files.git'
             }
         }
         
@@ -19,7 +19,7 @@ pipeline {
         stage('deploy in tomcat') {
             steps {
                 echo 'deplyoing .war in tomcat'
-                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://ec2-54-87-225-214.compute-1.amazonaws.com:8080/')], contextPath: 'new', war: '**/*.war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat', path: '', url: 'http://ec2-52-91-51-91.compute-1.amazonaws.com:8080/')], contextPath: 'kalyan', war: '**/*.war'
             }
         }        
     }
