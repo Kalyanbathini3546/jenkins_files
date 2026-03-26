@@ -5,7 +5,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>mindcircuitbatch16d</artifactId>
-    <version>1.4.0</version>
+    <version>1.1.0</version>
     <packaging>war</packaging>
 
 	<properties>
@@ -17,12 +17,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>NexusRepo</id>
-		    <url>http://52.86.11.152:8081/repository/kalyan-repo-snapshot/</url>
+		    <url>http://ec2-98-87-165-113.compute-1.amazonaws.com:8081/repository/kalyan-repo-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>NexusRepo</id>
-		    <url>http://52.86.11.152:8081/repository/kalyan-repo-release/</url>
+		    <url>http://ec2-98-87-165-113.compute-1.amazonaws.com:8081/repository/kalyan-repo-release/</url>
 		</repository>
   	</distributionManagement>
     
