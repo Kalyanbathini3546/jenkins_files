@@ -1,5 +1,5 @@
 <html> 
 
-<h1> Getting source code from git repo, building artifcat (.war), deploying in tomcat and saving .war in nexus repo </h1> 
+<h1> DEPLOYING APPLICATION IN TOMCAT FROM JENKINS PIPELINE </h1> 
 
 </html>
