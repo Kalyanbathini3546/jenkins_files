@@ -1,5 +1,6 @@
 <html> 
 
-<h1> DEPLOYING APPLICATION IN TOMCAT FROM JENKINS PIPELINE - 1apr2026 </h1> 
+<h1> Devlopercode pushed in git, scanning started
+</h1> 
 
 </html>
