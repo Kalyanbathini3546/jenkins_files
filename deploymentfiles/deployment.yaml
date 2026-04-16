@@ -24,6 +24,6 @@ spec:
     spec:
       containers:
         - name: fbcont
-          image: kalyan3546/class7:7
+          image: kalyan3546/class7:8
           ports:
             - containerPort: 8080
