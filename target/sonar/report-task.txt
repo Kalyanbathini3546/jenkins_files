@@ -2,5 +2,5 @@ projectKey=com.example:Kalyanbathini
 serverUrl=http://ec2-100-25-167-215.compute-1.amazonaws.com:9000
 serverVersion=26.4.0.121862
 dashboardUrl=http://ec2-100-25-167-215.compute-1.amazonaws.com:9000/dashboard?id=com.example%3AKalyanbathini
-ceTaskId=c1c999c6-40e5-47d9-a99d-06eeefc9fe84
-ceTaskUrl=http://ec2-100-25-167-215.compute-1.amazonaws.com:9000/api/ce/task?id=c1c999c6-40e5-47d9-a99d-06eeefc9fe84
+ceTaskId=d6f8d128-bff7-4e9e-bbb2-cad999f0a768
+ceTaskUrl=http://ec2-100-25-167-215.compute-1.amazonaws.com:9000/api/ce/task?id=d6f8d128-bff7-4e9e-bbb2-cad999f0a768
