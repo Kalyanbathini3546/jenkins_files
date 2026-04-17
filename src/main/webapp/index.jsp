@@ -1,5 +1,5 @@
 <html> 
 
-<h1> END TO END ARGOCD PROJECT - last one</h1> 
+<h1> END TO END ARGOCD PROJECT - last commit</h1> 
 
 </html>
