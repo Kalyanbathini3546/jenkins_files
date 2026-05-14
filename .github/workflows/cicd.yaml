@@ -18,7 +18,7 @@ jobs:
 
       - name: deploy .war to tomcat
         run: |
-              WAR_FILE=$(ls target/*.war | head -n 1)\
+              WAR_FILE=$(ls target/*.war | head -n 1)
               APP_NAME=kalyanapp
               curl -u "${{ secrets.TOMCAT_USERNAME }}:${{ secrets.TOMCAT_PASSWORD }}" \
                 --upload-file "$WAR_FILE"\
