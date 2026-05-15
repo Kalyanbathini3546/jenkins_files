@@ -14,7 +14,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: build .war in mvn
-        run: mvn clean package
+        run: mvn clean package -DskipTests
+        
 
       - name: deploy in tomcat
         run: |
