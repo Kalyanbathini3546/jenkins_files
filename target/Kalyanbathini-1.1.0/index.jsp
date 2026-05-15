@@ -1,5 +1,5 @@
 <html> 
 
-<h1> END TO END ARGOCD PROJECT - last commit</h1> 
+<h1> Deployed .war in tomcat- selfhosted-runner </h1> 
 
 </html>
