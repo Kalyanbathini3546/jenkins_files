@@ -17,6 +17,16 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        
+      - name: install java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin' # See 'Supported distributions' for available options
+          java-version: '17'  
+          
+      - name: Install Maven
+        run: |
+          sudo apt install maven -y
 
 
       - name: Build with Maven
